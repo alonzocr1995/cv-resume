@@ -36,20 +36,20 @@ const AboutMe = () => {
       },
     },
   };
-  const liTwoVariant = {
-    hidden: {
-      x: "-50vw",
-      opacity: 0,
-    },
-    visible: {
-      x: 0,
-      opacity: [0, 0.2, 0.4, 0.6, 0.8, 1],
-      transition: {
-        easeIn: [0.25, 0.45, 0.7, 0.9],
-        duration: 0.7,
-      },
-    },
-  };
+  // const liTwoVariant = {
+  //   hidden: {
+  //     x: "-50vw",
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     x: 0,
+  //     opacity: [0, 0.2, 0.4, 0.6, 0.8, 1],
+  //     transition: {
+  //       easeIn: [0.25, 0.45, 0.7, 0.9],
+  //       duration: 0.7,
+  //     },
+  //   },
+  // };
 
   const liThreeVariant = {
     hidden: {
@@ -113,16 +113,7 @@ const AboutMe = () => {
             and passionate about delivering solutions that add to people's
             lives.
           </motion.li>
-          {/* 
-          <motion.li
-            variants={liTwoVariant}
-            animate={animation}
-            initial="hidden"
-            className={classes.infoList}
-          >
-            I've had the privilege of been learning various of the most
-            technologies
-          </motion.li> */}
+
           <motion.li
             variants={liThreeVariant}
             animate={animation}

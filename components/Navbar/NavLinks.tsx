@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import Link from "next/link";
+import React from "react";
 import classes from "./NavLinks.module.css";
 
 interface NavProps {
@@ -8,10 +9,18 @@ interface NavProps {
 const NavLinks = ({ download }: NavProps) => {
   return (
     <div className={classes.navLinkContainer}>
-      <a href="/#home">HOME</a>
-      <a href="/#aboutme">ABOUT ME</a>
-      <a href="/#portfolio">PORTFOLIO</a>
-      <a href="/#contactme">CONTACT</a>
+      <Link href="/#home">
+        <a>HOME</a>
+      </Link>
+      <Link href="/#aboutme">
+        <a>ABOUT ME</a>
+      </Link>
+      <Link href="/#portfolio">
+        <a>PORTFOLIO</a>
+      </Link>
+      <Link href="/#contactme">
+        <a>CONTACT</a>
+      </Link>
       <button onClick={download}>CV</button>
     </div>
   );
