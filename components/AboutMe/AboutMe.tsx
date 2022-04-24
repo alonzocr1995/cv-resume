@@ -109,9 +109,9 @@ const AboutMe = () => {
             initial="hidden"
             className={classes.infoList}
           >
-            I'm a Costa Rican-based Software Developer who is highly motivated
-            and passionate about delivering solutions that add to people's
-            lives.
+            I&apos;m a Costa Rican-based Software Developer who is highly
+            motivated and passionate about delivering solutions that add to
+            people&apos;s lives.
           </motion.li>
 
           <motion.li
@@ -120,7 +120,7 @@ const AboutMe = () => {
             initial="hidden"
             className={classes.techP}
           >
-            Here are a few technologies i've work with:
+            Here are a few technologies i&apos;ve work with:
           </motion.li>
         </motion.ul>
         <motion.ul
