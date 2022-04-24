@@ -3,7 +3,6 @@ import classes from "./Navbar.module.css";
 import fileDownload from "js-file-download";
 import axios from "axios";
 import Hamburger from "hamburger-react";
-import Menu from "../Menu/Menu";
 import NavLinks from "./NavLinks";
 import MobileNavLinks from "./MobileNavLinks";
 
