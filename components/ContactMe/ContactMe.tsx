@@ -69,7 +69,7 @@ const ContactMe = () => {
       <div className={classes.topContainer}>
         <h2>Contact me</h2>
         <span>Whether you have a question or just want to say hi.</span>
-        <span>I'll try my best to get back to you!</span>
+        <span>I&apos;ll try my best to get back to you!</span>
       </div>
       <div className={classes.bottomContainer}>
         <h3>Get in touch using the form below </h3>

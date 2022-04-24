@@ -3,6 +3,7 @@ import classes from "./HomeTop.module.css";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Link from "next/link";
 
 const pVariant = {
   hidden: {
@@ -78,7 +79,7 @@ const HomeTop = () => {
         <motion.p variants={buttonVariant} initial="hidden" animate={control}>
           Entry Level Developer focused on Web Development
         </motion.p>
-        <a href="/#contactme">
+        <Link href="/#contactme">
           <motion.button
             variants={buttonVariant}
             initial="hidden"
@@ -86,7 +87,7 @@ const HomeTop = () => {
           >
             Contact
           </motion.button>
-        </a>
+        </Link>
       </div>
     </section>
   );

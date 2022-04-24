@@ -5,6 +5,7 @@ import axios from "axios";
 import Hamburger from "hamburger-react";
 import NavLinks from "./NavLinks";
 import MobileNavLinks from "./MobileNavLinks";
+import Link from "next/link";
 
 const Navbar = () => {
   const [theme, setTheme] = useState<string>("light");
@@ -44,12 +45,11 @@ const Navbar = () => {
       <nav
         className={`${classes.container} ${isOpen && classes.menuContainer}`}
       >
-        <a
-          href="/#home"
-          className={`${classes.title} ${isOpen && classes.titleHide}`}
-        >
-          <span>L</span>ARC
-        </a>
+        <Link href="/#home">
+          <a className={`${classes.title} ${isOpen && classes.titleHide}`}>
+            <span>L</span>ARC
+          </a>
+        </Link>
 
         <div className={classes.navList}>
           <div className={classes.themeIcon}>

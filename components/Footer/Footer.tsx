@@ -5,9 +5,11 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.container}>
-      <a href="/#home" className={classes.title}>
-        <span>L</span>ARC
-      </a>
+      <Link href="/#home">
+        <a className={classes.title}>
+          <span>L</span>ARC
+        </a>
+      </Link>
       <div className={classes.iconContainer}>
         <Link href="https://github.com/alonzocr1995">
           <a target="_blank">
