@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@paypal/react-paypal-js": "^7.6.0",
+    "axios": "^0.26.1",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^6.2.8",
+    "hamburger-react": "^2.5.0",
+    "js-file-download": "^0.4.12",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-google-recaptcha-v3": "^1.9.7",
+    "react-intersection-observer": "^8.33.1",
+    "react-tsparticles": "^1.42.2",
+    "use-local-storage": "^2.3.6"
   },
   "devDependencies": {
     "@types/node": "17.0.21",

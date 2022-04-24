@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container a {
+  color: white;
+  padding: 10px;
+}
+
+.container button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--green);
+  background-color: var(--pink);
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.container button:hover {
+  background-color: var(--green);
+  transition: ease 0.5s;
+}
