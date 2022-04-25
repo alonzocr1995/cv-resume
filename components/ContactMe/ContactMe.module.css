@@ -71,6 +71,7 @@
   position: relative;
   z-index: 1;
   color: var(--text-primary);
+  resize: none;
 }
 
 .formContainer button {
@@ -106,11 +107,19 @@
   .topContainer h2 {
     font-size: 45px;
   }
+
+  .formContainer input {
+    width: 65%;
+  }
+
+  .formContainer textarea {
+    width: 65%;
+  }
 }
 
 @media only screen and (max-width: 750px) {
   .container {
-    padding: 25px 50px;
+    padding: 25px;
   }
 
   .topContainer h2 {
@@ -124,7 +133,7 @@
 
 @media only screen and (max-width: 550px) {
   .container {
-    padding: 10px 25px;
+    padding: 10px 0px;
   }
 
   .topContainer h2 {
@@ -133,5 +142,13 @@
 
   .bottomContainer h3 {
     font-size: 18px;
+  }
+
+  .formContainer input {
+    width: 70%;
+  }
+
+  .formContainer textarea {
+    width: 70%;
   }
 }

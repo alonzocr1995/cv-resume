@@ -53,7 +53,7 @@
     justify-content: center;
     align-items: center;
     padding: 1.2rem 100px;
-    background-color: rgb(97, 226, 97);
+    background-color: var(--green);
     position: sticky;
     top: 0;
     left: 0;
