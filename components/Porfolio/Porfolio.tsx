@@ -3,6 +3,7 @@ import classes from "./Porfolio.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { portfolioInfo } from "../../data/portfolio-data";
+import Link from "next/link";
 
 const Porfolio = () => {
   const [ref, inView] = useInView({
@@ -46,15 +47,17 @@ const Porfolio = () => {
                 width="30px"
                 height="30px"
               />
-              <a href="">
-                <img
-                  src={info.githubImg}
-                  alt="github-icon"
-                  width="30px"
-                  height="30px"
-                  style={{ cursor: "pointer" }}
-                />
-              </a>
+              <Link href={info.ghLink}>
+                <a target="_blank">
+                  <img
+                    src={info.githubImg}
+                    alt="github-icon"
+                    width="30px"
+                    height="30px"
+                    style={{ cursor: "pointer" }}
+                  />
+                </a>
+              </Link>
             </div>
             <div className={classes.cardContent}>
               <h3>{info.title}</h3>
