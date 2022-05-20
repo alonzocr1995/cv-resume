@@ -50,4 +50,13 @@ export const portfolioInfo: PortInfo[] = [
       "Building an app where you can estimate the value of a car. CURRENTLY IN PROCESS!",
     tech: ["Typescript", "Nest", "TypeORM"],
   },
+  {
+    id: 4,
+    folderImg: "https://alonzofiles.s3.amazonaws.com/images/folder.png",
+    githubImg: "https://alonzofiles.s3.amazonaws.com/images/github.png",
+    ghLink: "https://github.com/alonzocr1995/first-nft-project",
+    title: "NFT-Drop",
+    description: "Web 3 build, NFT-Drop app",
+    tech: ["Typescript", "Sanity", "ThirdWeb", "Tailwind"],
+  },
 ];
