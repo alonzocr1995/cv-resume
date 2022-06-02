@@ -51,12 +51,22 @@ export const portfolioInfo: PortInfo[] = [
     tech: ["Typescript", "Nest", "TypeORM"],
   },
   {
-    id: 4,
+    id: 5,
     folderImg: "https://alonzofiles.s3.amazonaws.com/images/folder.png",
     githubImg: "https://alonzofiles.s3.amazonaws.com/images/github.png",
     ghLink: "https://github.com/alonzocr1995/first-nft-project",
     title: "NFT-Drop",
     description: "Web 3 build, NFT-Drop app",
     tech: ["Typescript", "Sanity", "ThirdWeb", "Tailwind"],
+  },
+  {
+    id: 6,
+    folderImg: "https://alonzofiles.s3.amazonaws.com/images/folder.png",
+    githubImg: "https://alonzofiles.s3.amazonaws.com/images/github.png",
+    ghLink: "https://github.com/alonzocr1995/first-nft-project",
+    title: "Reddit-Clone",
+    description:
+      "Reddit clone build. You can sign in with your reddit account, post, comment, upvote or downvote, comment. Build using Nextjs, Graphql, Tailwind, Sql, Supabase, Stepzen.",
+    tech: ["Typescript", "Tailwind", "Stepzen", "Supabase"],
   },
 ];

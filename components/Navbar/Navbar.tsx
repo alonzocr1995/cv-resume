@@ -16,8 +16,6 @@ const Navbar = () => {
     setOpen(close);
   };
 
-  console.log("tooggle", isOpen);
-
   const download = async () => {
     try {
       const res = await axios.get(
